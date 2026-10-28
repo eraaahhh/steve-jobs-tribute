@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steve Jobs | Legacy</title>
+    <meta
+      name="description"
+      content="A tribute website celebrating Steve Jobs, his vision, products, quotes, and influence on technology and design."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="floating-shape shape-1"></div>
+      <div class="floating-shape shape-2"></div>
+      <div class="floating-shape shape-3"></div>
+
+      <header class="site-header">
+        <nav class="container nav-bar">
+          <div class="brand">
+            <span class="brand-mark">SJ</span>
+            <span>Steve Jobs</span>
+          </div>
+          <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#creations">Creations</a>
+            <a href="#quotes">Quotes</a>
+            <a href="#quiz">Quiz</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero container">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Visionary • Inventor • Designer</p>
+            <h1>Innovating the way the world experiences technology.</h1>
+            <p class="lead">
+              Steve Jobs changed how people think about design, creativity, and
+              the future. From Apple to Pixar, his ideas shaped modern life.
+            </p>
+            <div class="hero-actions">
+              <a href="#about" class="btn btn-primary">Learn more</a>
+              <a href="#quiz" class="btn btn-secondary">Try the quiz</a>
+            </div>
+            <div class="stats">
+              <div>
+                <strong>1976</strong>
+                <span>Apple founded</span>
+              </div>
+              <div>
+                <strong>1984</strong>
+                <span>Macintosh launch</span>
+              </div>
+              <div>
+                <strong>2007</strong>
+                <span>iPhone era begins</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="portrait-frame">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg/800px-Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg"
+                alt="Steve Jobs portrait"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="about section container reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Biography</p>
+            <h2>General information</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card">
+              <h3>Who he was</h3>
+              <p>
+                Steven Paul Jobs was born on February 24, 1955, in San Francisco,
+                California. He was a co-founder of Apple Inc. and became one of the
+                most influential figures in technology and design.
+              </p>
+            </div>
+            <div class="about-card">
+              <h3>Career highlights</h3>
+              <p>
+                Jobs helped launch products such as the Macintosh, iPod, iPhone,
+                and iPad, while also leading Pixar to remarkable animation success.
+              </p>
+            </div>
+            <div class="about-card">
+              <h3>Legacy</h3>
+              <p>
+                He believed deeply in simplicity, user experience, and pushing ideas
+                beyond what was technically possible. His design philosophy still
+                inspires product teams worldwide.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="creations" class="section container reveal">
+          <div class="section-heading">
+            <p class="eyebrow">His creations</p>
+            <h2>Products that changed the world</h2>
+          </div>
+
+          <div class="creation-grid">
+            <article class="creation-card">
+              <div class="card-badge">1976</div>
+              <h3>Apple I</h3>
+              <p>
+                A hand-built personal computer that helped establish Apple as a
+                serious technology company.
+              </p>
+            </article>
+
+            <article class="creation-card">
+              <div class="card-badge">1984</div>
+              <h3>Macintosh</h3>
+              <p>
+                Introduced a new era of personal computing with a graphical user
+                interface and mouse-based interaction.
+              </p>
+            </article>
+
+            <article class="creation-card">
+              <div class="card-badge">1998</div>
+              <h3>iMac</h3>
+              <p>
+                Brought a colorful, approachable design to the desktop computer and
+                revived Apple’s identity.
+              </p>
+            </article>
+
+            <article class="creation-card">
+              <div class="card-badge">2001</div>
+              <h3>iPod</h3>
+              <p>
+                Reinvented portable music with a sleek interface and elegant design.
+              </p>
+            </article>
+
+            <article class="creation-card">
+              <div class="card-badge">2007</div>
+              <h3>iPhone</h3>
+              <p>
+                Combined communication, internet, and computing into one revolutionary
+                device.
+              </p>
+            </article>
+
+            <article class="creation-card">
+              <div class="card-badge">2010</div>
+              <h3>iPad</h3>
+              <p>
+                Created a new category of computing: a tablet designed for touch-first
+                interaction.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="quotes" class="section quotes-section reveal">
+          <div class="container quote-wrapper">
+            <div class="section-heading">
+              <p class="eyebrow">Words to remember</p>
+              <h2>Famous Steve Jobs quotes</h2>
+            </div>
+
+            <div class="quote-box" aria-live="polite">
+              <p class="quote-text" id="quoteText">
+                “Innovation distinguishes between a leader and a follower.”
+              </p>
+              <p class="quote-author" id="quoteAuthor">— Steve Jobs</p>
+            </div>
+
+            <div class="quote-controls">
+              <button id="prevQuote" class="quote-button" aria-label="Previous quote">
+                Previous
+              </button>
+              <button id="nextQuote" class="quote-button primary" aria-label="Next quote">
+                Next
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section id="quiz" class="section container reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Challenge yourself</p>
+            <h2>Steve Jobs quiz</h2>
+          </div>
+
+          <div class="quiz-card">
+            <div id="quizContent">
+              <div class="question-block">
+                <p class="question-number" id="questionNumber">Question 1 of 5</p>
+                <h3 id="questionText">Which product launched the smartphone era?</h3>
+
+                <div class="answer-list" id="answerList"></div>
+              </div>
+            </div>
+
+            <div class="quiz-footer">
+              <button id="nextQuestion" class="btn btn-primary" type="button">
+                Next
+              </button>
+              <button id="restartQuiz" class="btn btn-secondary hidden" type="button">
+                Restart quiz
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <p>Celebrating the creativity and vision of Steve Jobs</p>
+          <a href="#top">Back to top</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
